@@ -1,6 +1,6 @@
 <!-- admin logIn page and login logic -->
 <?php
-
+//Session Handling: It starts a session and checks if a user is already logged in ($_SESSION['uid']). If so, it redirects them to the dashboard.
 session_start();
 if (isset($_SESSION['uid'])) {
 
